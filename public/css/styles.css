@@ -1,0 +1,208 @@
+@charset "UTF-8";
+/*!
+* Start Bootstrap - SB Admin v6.0.2 (https://startbootstrap.com/template/sb-admin)
+* Copyright 2013-2020 Start Bootstrap
+* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-sb-admin/blob/master/LICENSE)
+*/
+/*!
+ * Bootstrap v4.5.3 (https://getbootstrap.com/)
+ * Copyright 2011-2020 The Bootstrap Authors
+ * Copyright 2011-2020 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #000;
+}
+
+#warp {
+  margin:auto 0;
+  background: url(/images/main.png);
+  background-color: #efefef;
+  background-repeat: no-repeat;
+  background-size: 900px;
+  height:100%;
+  vertical-align: top;
+  background-position: center;
+  text-align:center;
+}
+
+#header {
+  margin:auto 0;
+  display: inline-block;
+  width:900px;
+  text-align:center;
+  height:82px;
+  border-bottom: 1px solid #606060;
+}
+
+#header #nav{
+  margin:auto 0;
+  display: inline-block;
+  width:621px;
+  vertical-align: -120%;
+}
+
+#header #nav > div{
+  color:#fff;
+  display:inline-block;
+  font-size:20px;
+  margin:0 20px;
+  font-weight:bold;
+}
+
+#content {
+  height:900px;
+}
+
+#content > div {
+  color:#fff;
+}
+
+/* FOR */
+#content > div:nth-child(1) {
+  padding-top:100px;
+  height:220px;
+  font-size:50px;
+  font-weight:bold;
+}
+
+/* EL DO */
+#content > div:nth-child(2) {
+  font-size:50px;
+  font-weight:bold;
+}
+
+/* 컨텐츠 */
+#content > div:nth-child(3) {
+  margin-top:100px;
+  display: inline-block;
+  width:900px;
+  text-align:center;
+  height:400px;
+}
+
+#content > div:nth-child(3) > ul {
+  margin:0;
+  padding:0;
+}
+
+#content > div:nth-child(3) > ul > li {
+  float:left;
+  background-color: #000;
+  list-style: none;
+  height:400px;
+  padding:20px;
+  text-align:left;
+  font-size:18px;
+  line-height:180%;
+  font-weight:500;
+}
+
+#content > div:nth-child(3) > ul > li:nth-child(1) {
+  background-color: rgba( 0, 0, 0, 0.7 );
+  width:30%;
+}
+
+#content > div:nth-child(3) > ul > li:nth-child(2) {
+  background-color: rgba( 0, 0, 0, 0.4 );
+  width:70%;
+}
+
+
+/* 컨텐츠 전체 */
+/*
+#content > div:nth-child(3) > div {
+
+  background-color:#000;
+}
+
+ */
+
+
+/* 컨텐츠 왼쪽 */
+/*
+#content > div:nth-child(3) > div:nth-child(1) {
+  background-color: rgba( 0, 0, 0, 0.7 );
+}
+*/
+/* 컨텐츠 오른쪽 */
+/*
+#content > div:nth-child(3) > div:nth-child(2) {
+  background-color: rgba(  0, 0, 0, 0.4  );
+}
+
+ */
+
+
+header > div {
+  display:inline-block;
+}
+
+header > div > input[type="button"] {
+  font-size:16px;
+  padding:3px;
+}
+
+header div:nth-child(1) {
+  width:55%;
+}
+
+header div:nth-child(2),header div:nth-child(3) {
+  width:20%;
+  text-align:right;
+}
